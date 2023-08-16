@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { UserContext } from './context/usercontext';
+import { UserContext } from '../context/usercontext';
 import { useNavigate } from 'react-router-dom';
 
 function Input() {

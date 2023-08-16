@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Card from './components/card';
 import Input from './components/input';
-import { UserContext } from './components/context/usercontext';
+import { UserContext } from './context/usercontext';
 import { useState } from 'react';
 
 function App() {

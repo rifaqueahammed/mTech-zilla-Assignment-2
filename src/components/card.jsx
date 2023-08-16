@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { UserContext } from './context/usercontext'
+import { UserContext } from '../context/usercontext'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
